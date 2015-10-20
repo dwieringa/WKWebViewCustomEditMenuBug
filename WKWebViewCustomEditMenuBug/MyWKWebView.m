@@ -26,4 +26,9 @@
     return NO;
 }
 
+- (void)delete:(id)sender
+{
+    NSLog(@"Delete menu item selected");
+}
+
 @end
