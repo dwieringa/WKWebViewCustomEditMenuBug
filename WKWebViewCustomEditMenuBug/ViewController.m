@@ -8,9 +8,10 @@
 
 @import WebKit;
 #import "ViewController.h"
+#import "MyWKWebView.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) WKWebView *webView;
+@property (strong, nonatomic) MyWKWebView *webView;
 
 @end
 
@@ -19,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.webView = [[WKWebView alloc] initWithFrame:self.view.frame];
+    self.webView = [[MyWKWebView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:self.webView];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://en.wikipedia.org/wiki/Sailing"]];

@@ -15,6 +15,7 @@
 		55E45B2F1BD697E9002113A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E45B2D1BD697E9002113A8 /* LaunchScreen.storyboard */; };
 		55E45B3A1BD697EA002113A8 /* WKWebViewCustomEditMenuBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B391BD697EA002113A8 /* WKWebViewCustomEditMenuBugTests.m */; };
 		55E45B451BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B441BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.m */; };
+		55E45B541BD698B5002113A8 /* MyWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B531BD698B5002113A8 /* MyWKWebView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		55E45B401BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewCustomEditMenuBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E45B441BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewCustomEditMenuBugUITests.m; sourceTree = "<group>"; };
 		55E45B461BD697EA002113A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E45B521BD698B5002113A8 /* MyWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebView.h; sourceTree = "<group>"; };
+		55E45B531BD698B5002113A8 /* MyWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWKWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				55E45B231BD697E9002113A8 /* AppDelegate.m */,
 				55E45B251BD697E9002113A8 /* ViewController.h */,
 				55E45B261BD697E9002113A8 /* ViewController.m */,
+				55E45B521BD698B5002113A8 /* MyWKWebView.h */,
+				55E45B531BD698B5002113A8 /* MyWKWebView.m */,
 				55E45B281BD697E9002113A8 /* Main.storyboard */,
 				55E45B2B1BD697E9002113A8 /* Assets.xcassets */,
 				55E45B2D1BD697E9002113A8 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E45B271BD697E9002113A8 /* ViewController.m in Sources */,
+				55E45B541BD698B5002113A8 /* MyWKWebView.m in Sources */,
 				55E45B241BD697E9002113A8 /* AppDelegate.m in Sources */,
 				55E45B211BD697E9002113A8 /* main.m in Sources */,
 			);
