@@ -6,9 +6,11 @@
 //  Copyright © 2015 Userwise Solutions. All rights reserved.
 //
 
+@import WebKit;
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) WKWebView *webView;
 
 @end
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.webView = [[WKWebView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:self.webView];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://en.wikipedia.org/wiki/Sailing"]];
+    [self.webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
