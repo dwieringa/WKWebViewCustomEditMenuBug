@@ -16,6 +16,7 @@
 		55E45B3A1BD697EA002113A8 /* WKWebViewCustomEditMenuBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B391BD697EA002113A8 /* WKWebViewCustomEditMenuBugTests.m */; };
 		55E45B451BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B441BD697EA002113A8 /* WKWebViewCustomEditMenuBugUITests.m */; };
 		55E45B541BD698B5002113A8 /* MyWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E45B531BD698B5002113A8 /* MyWKWebView.m */; settings = {ASSET_TAGS = (); }; };
+		55E45B561BD6A459002113A8 /* Screen Shot of Edit Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E45B551BD6A459002113A8 /* Screen Shot of Edit Menu.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		55E45B461BD697EA002113A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E45B521BD698B5002113A8 /* MyWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebView.h; sourceTree = "<group>"; };
 		55E45B531BD698B5002113A8 /* MyWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWKWebView.m; sourceTree = "<group>"; };
+		55E45B551BD6A459002113A8 /* Screen Shot of Edit Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot of Edit Menu.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		55E45B1F1BD697E9002113A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55E45B551BD6A459002113A8 /* Screen Shot of Edit Menu.png */,
 				55E45B201BD697E9002113A8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E45B2F1BD697E9002113A8 /* LaunchScreen.storyboard in Resources */,
+				55E45B561BD6A459002113A8 /* Screen Shot of Edit Menu.png in Resources */,
 				55E45B2C1BD697E9002113A8 /* Assets.xcassets in Resources */,
 				55E45B2A1BD697E9002113A8 /* Main.storyboard in Resources */,
 			);
