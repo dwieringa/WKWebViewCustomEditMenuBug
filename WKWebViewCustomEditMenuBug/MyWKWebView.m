@@ -14,7 +14,7 @@
 {
     // KNOWN WKWEBVIEW BUG: http://stackoverflow.com/questions/26046098/wkwebview-and-uimenucontroller
 
-    NSLog(@"CHECKING CAN PERFORM ACTION : %@", NSStringFromSelector(action));
+    NSLog(@"ACTION: %@", NSStringFromSelector(action));
 
     if (action == @selector(delete:))
     {
