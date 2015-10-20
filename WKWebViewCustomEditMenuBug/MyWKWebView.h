@@ -8,6 +8,6 @@
 
 #import <WebKit/WebKit.h>
 
-@interface MyWKWebView : WKWebView
+@interface MyWKWebView : UIWebView
 
 @end
